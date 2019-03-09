@@ -1,0 +1,4 @@
+#!/bin/sh
+#find /usr/include ./ -name "*.h" -o -name "*.cpp" -o -name "*.cc" >cscope.files
+find ./ -name "*.h" -o -name "*.cpp" -o -name "*.cc" -o -name "*.lua" -o -name "*.hpp" >cscope.files
+cscope -bkq -i cscope.files

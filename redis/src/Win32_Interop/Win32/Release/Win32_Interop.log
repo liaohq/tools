@@ -1,0 +1,38 @@
+﻿  Performing Custom Build Tools
+  子目录或文件 resources 已经存在。
+  MC: Compiling EventLog.mc
+  Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Microsoft (R) Incremental Linker Version 14.10.25017.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+LINK : warning LNK4068: 未指定 /MACHINE；默认设置为 X86
+  win32fixes.c
+  Win32_ANSI.c
+  Win32_APIs.c
+  Win32_dlmalloc.c
+  Win32_Error.c
+  Win32_PThread.c
+  Win32_QFork_impl.c
+d:\software\redis-win-3.2.100\redis-win-3.2.100\src\sds.h(153): warning C4244: “return”: 从“uint64_t”转换到“::size_t”，可能丢失数据
+d:\software\redis-win-3.2.100\redis-win-3.2.100\src\sds.h(178): warning C4244: “return”: 从“uint64_t”转换到“::size_t”，可能丢失数据
+d:\software\redis-win-3.2.100\redis-win-3.2.100\src\sds.h(246): warning C4244: “return”: 从“uint64_t”转换到“::size_t”，可能丢失数据
+  Win32_RedisLog.c
+  Win32_Signal_Process.c
+  Win32_ThreadControl.c
+  Win32_Time.c
+  win32_wsiocp.c
+  Win32_CommandLine.cpp
+  Win32_Common.cpp
+  Win32_EventLog.cpp
+  Win32_FDAPI.cpp
+  Win32_fdapi_crt.cpp
+  Win32_QFork.cpp
+  win32_rfdmap.cpp
+  Win32_service.cpp
+  Win32_StackTrace.cpp
+  Win32_variadicFunctor.cpp
+  Win32_Interop.vcxproj -> D:\SoftWare\redis-win-3.2.100\redis-win-3.2.100\msvs\Win32\Release\Win32_Interop.lib
